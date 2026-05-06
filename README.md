@@ -41,3 +41,8 @@ The project compares custom implementations of foundational optimization algorit
 *   **Algorithm Efficiency**: For the unconstrained quadratic problem, Newton's method is the most efficient, converging in a single iteration ($J(x^*) \approx 3.79$). The Conjugate Gradient method also performs exceptionally well, converging in 14 iterations.
 *   **Conditioning Issues**: The Steepest Descent method struggled to converge even after 5000 iterations due to the high correlation between assets, which leads to a poorly conditioned Hessian matrix.
 *   **Impact of Constraints**: Introducing the no-short-selling constraint (preventing negative weights) significantly increases the cost function to $J(x^*) \approx 8.53$ (solved via SciPy's SLSQP). This highlights the financial "cost" of long-only restrictions, forcing the portfolio onto a less favorable efficient frontier.
+
+## 👨‍💻 Author
+
+Fevzi BOZCA
+Master 2 MMMEF - Université Paris 1 Panthéon-Sorbonne
